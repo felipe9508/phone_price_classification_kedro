@@ -2,3 +2,22 @@
 #
 # Documentation for this file format can be found in "The Data Catalog"
 # Link: https://kedro.readthedocs.io/en/stable/data/data_catalog.html
+data_raw: 
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/CellPhoneDS.csv
+
+data_clean: 
+  type: pandas.ParquetDataSet
+  filepath: data/02_intermediate/data_clean.parquet
+
+
+model_trained:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/phone_classificator.pkl
+  backend: pickle
+  layer: models
+
+cross_validation_score:
+  type: kedro.extras.datasets.text.TextDataSet
+  filepath: data/07_model_output/validacion_cruzada.txt
+  layer: model output    
