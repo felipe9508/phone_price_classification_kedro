@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/cristian.sanchezp/Documents/uniquindio/maestria/Ciencia%20de%20Datos%20en%20Produccion/phone_price_classification/kedro/phone_price_classification_kedro/mlruns/338607877962406141/05da4dcb8f444483ab151ef899048669/artifacts
+end_time: 1668487609579
+entry_point_name: ''
+experiment_id: '338607877962406141'
+lifecycle_stage: active
+run_id: 05da4dcb8f444483ab151ef899048669
+run_name: DecisionTreeClassifier
+run_uuid: 05da4dcb8f444483ab151ef899048669
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1668487608696
+status: 3
+tags: []
+user_id: cristian.sanchezp
